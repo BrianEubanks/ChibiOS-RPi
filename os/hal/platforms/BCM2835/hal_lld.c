@@ -99,6 +99,7 @@ CH_IRQ_HANDLER(IrqHandler)
 
 #if HAL_USE_I2C
   i2c_lld_serve_interrupt(&I2C0);
+  i2c_lld_serve_interrupt(&I2C1); //BE Add i2c1
 #endif
 
 #if HAL_USE_SPI

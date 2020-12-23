@@ -164,6 +164,7 @@ struct I2CDriver {
 /*===========================================================================*/
 
 extern I2CDriver I2C0;
+extern I2CDriver I2C1; //BE Add i2c1
 
 #ifdef __cplusplus
 extern "C" {
